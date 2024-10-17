@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi-step Register Form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container register">
+    <h1 class="title register">Register</h1>
+    <div class="input1">
+      <h2 class="name register">Name</h2>
+      <input type="text" placeholder="enter your name" required>
+    </div>
+    <div class="input2">
+      <h2 class="email register">Email</h2>
+      <input type="email" placeholder="example@gmail.com" required>
+    </div>
+    <div class="button-register">
+      <button type="submit">Continue</button>
+    </div>
+  </div>
+
+  <div class="container interests" style="display: none">
+    <h1 class="title interests">Wich topics you are interested in?</h1>
+    <p class="option sd">Software Development</p>
+    <p class="option ue">User Experience</p>
+    <p class="option gd">Graphic Design</p>
+    <div class="button-interests">
+      <button type="submit">Continue</button>
+    </div>
+  </div>
+
+  <div class="container summary" style="display: none">
+    <div class="summary-info">
+      <h1 class="title">Summary</h1>
+      <p>Name: Emily Johnson</p>
+      <p>Email: emily@emilyjohnsontl.com</p>
+      <h3>Toppics:</h3>
+      <ul>
+        <li>User Experience</li>
+        <li>Graphic Design</li>
+      </ul>
+    </div>
+    <div class="button-summary">
+      <button type="submit">Confirm</button>
+    </div>
+  </div>
+
+  <div class="progress-indicator">
+    <p>Step <span class="step">1</span> of 3</p>
+    <span class="dot one active"></span>
+    <span class="dot two"></span>
+    <span class="dot three"></span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+body {
+  background-color: #121826;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('resources/blur-radial.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+.container {
+  background-color: #212936;
+  height: 400px;
+  width: 600px;
+  border: 2px solid #4D5562;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #A1A1A9;
+}
+
+.title {
+  width: 500px;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.input1 {
+  width: 500px;
+}
+
+.input2 {
+  width: 500px;
+}
+
+.register input {
+  background-color: transparent;
+  width: 490px;
+  height: 35px;
+  border: 2px solid #4D5562;
+  border-radius: 10px;
+  padding-left: 10px;
+  outline: none;
+  color: #E5E7EB;
+}
+
+.name.register {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.email.register {
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.button-register button, 
+.button-interests button, 
+.button-summary button {
+  background: linear-gradient(#845EEE, #652CD1);
+  color: #E5E7EB;
+  margin: 50px 0;
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.button-register button:hover,
+.button-interests button:hover,
+.button-summary button:hover {
+  background: #845EEE;
+}
+
+.progress-indicator {
+  display: flex;
+  height: auto;
+  transform: translate(-33px, 20px);
+}
+
+.progress-indicator p {
+  font-size: 12px;
+  margin: 0 5px;
+  color: #4D5562;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #555;
+  border-radius: 50%;
+  display: inline-flex;
+  margin:  0 5px;
+  transform: translateY(3px);
+}
+
+.dot.active {
+  background-color: #6c42f5;
+}
+
+.option {
+  width: 490px;
+  height: 50px;
+  padding-left: 10px;
+  background-color: #394150;
+  margin: 8px 0;
+  border: 1px solid #4D5562;
+  border-radius: 10px;
+  color: #A1A1A9;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
